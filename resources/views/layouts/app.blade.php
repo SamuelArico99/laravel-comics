@@ -12,17 +12,13 @@
 </head>
 
 <body>
-    <header>
-        HEADER
-    </header>
+    @include('partials.header')
 
     <main>
         @yield('content')
     </main>
 
-    <footer>
-        FOOTER
-    </footer>
+    @include('partials.footer')
 </body>
 
 </html>
