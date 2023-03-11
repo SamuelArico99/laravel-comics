@@ -1,35 +1,40 @@
-<header>
-    <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
-    <ul class="list-unstyled d-flex">
-        <li>
-            <a href="#">CHARTERS</a>
-        </li>
-        <li>
-            <a href="#">COMICS</a>
-        </li>
-        <li>
-            <a href="#">MOVIES</a>
-        </li>
-        <li>
-            <a href="#">TV</a>
-        </li>
-        <li>
-            <a href="#">GAMES</a>
-        </li>
-        <li>
-            <a href="#">COLLECTIBLES</a>
-        </li>
-        <li>
-            <a href="#">VIDEOS</a>
-        </li>
-        <li>
-            <a href="#">FANS</a>
-        </li>
-        <li>
-            <a href="#">NEWS</a>
-        </li>
-        <li>
-            <a href="#">SHOP</a>
-        </li>
-    </ul>
-</header>
+<div class="container">
+    <header class="d-flex justify-content-between p-2">
+        <img src="{{ Vite::asset('resources/img/dc-logo.png') }}"  alt="">
+        <ul class="list-unstyled d-flex align-items-center mb-0">
+            <li class="mx-2">
+                <a class="text-decoration-none text-dark fw-bold" href="#">CHARTERS</a>
+            </li>
+            <li class="mx-2">
+                <a class="text-decoration-none text-dark fw-bold" href="#">COMICS</a>
+            </li>
+            <li class="mx-2">
+                <a class="text-decoration-none text-dark fw-bold" href="#">MOVIES</a>
+            </li>
+            <li class="mx-2">
+                <a class="text-decoration-none text-dark fw-bold" href="#">TV</a>
+            </li>
+            <li class="mx-2">
+                <a class="text-decoration-none text-dark fw-bold" href="#">GAMES</a>
+            </li>
+            <li class="mx-2">
+                <a class="text-decoration-none text-dark fw-bold" href="#">COLLECTIBLES</a>
+            </li>
+            <li class="mx-2">
+                <a class="text-decoration-none text-dark fw-bold" href="#">VIDEOS</a>
+            </li>
+            <li class="mx-2">
+                <a class="text-decoration-none text-dark fw-bold" href="#">FANS</a>
+            </li>
+            <li class="mx-2">
+                <a class="text-decoration-none text-dark fw-bold" href="#">NEWS</a>
+            </li>
+            <li class="mx-2">
+                <a class="text-decoration-none text-dark fw-bold" href="#">SHOP</a>
+            </li>
+        </ul>
+    
+    </header>
+</div>
+<section id="jumbotron">
+</section>

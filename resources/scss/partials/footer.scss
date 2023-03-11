@@ -1,0 +1,96 @@
+.contacts-terms {
+    width: 100%;
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+
+    .container {
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .container-contacts {
+            width: 40%;
+            height: 100%;
+            display: flex;
+
+
+            div {
+                width: calc(100% / 3);
+                padding: 10px;
+
+                h2 {
+                    color: white;
+                    margin-bottom: 5px;
+                }
+
+                li {
+                    list-style: none;
+                    margin-bottom: 5px;
+
+                    a {
+                        text-decoration: none;
+                        color: gray;
+                    }
+                }
+            }
+        }
+    }
+
+    .logo {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+
+
+        img {
+            height: 80%;
+        }
+
+    }
+}
+
+.sign-up {
+    width: 100%;
+    height: 100px;
+    background-color: #303030;
+
+
+    .container {
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+            padding: 10px 15px;
+            color: white;
+            background-color: #303030;
+            border: 2px solid #13528d;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        div {
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: #13528d;
+                margin-right: 20px;
+                font-weight: bold;
+            }
+
+            img {
+                margin-right: 10px;
+            }
+        }
+    }
+}

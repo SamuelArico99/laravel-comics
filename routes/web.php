@@ -21,7 +21,3 @@ Route::get('/', function () {
         'comics' => $comics
     ]);
 });
-
-Route::get('/about', function () {
-    return view('about');
-});
